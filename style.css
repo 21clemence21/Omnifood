@@ -1,0 +1,255 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+
+  
+  
+    background:linear-gradient(
+        rgba(0, 0, 0, 0.6), 
+        rgba(0, 0, 0, 0.6)
+        ), url("images/hero-min.jpg");
+    background-size:cover;
+    background-position: center;
+    background-attachment:fixed;
+    height: 600px;
+}
+
+
+
+
+.firstrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    height: 200px;
+}
+
+.firstrow img {
+    width: 100px;
+    margin-left: 60px;
+    margin-top: 15px;
+}
+
+#premierenav ul {
+    display: flex;
+    flex-direction: row;
+    align-items :center; 
+    justify-content:space-around;
+  
+    margin-right: 30px;
+}
+
+
+
+header ul li {
+    list-style-type: none; 
+}
+header ul li a {
+    text-decoration : none;
+    padding: 10px 15px;
+    
+    text-transform: uppercase;
+    color: white; 
+    
+    font-size: 1.6rem;
+}
+
+.lienfinal{
+    margin-right: 30px;
+}
+
+ #presentation div {
+    margin-left: 70px;
+}
+
+#presentation {
+    margin-top: 100px;
+}
+
+#buttons button{
+    text-decoration : none;
+    padding: 15px 25px; 
+    background-color: orange;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+#section1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+}
+
+#section1presentation {
+    text-align: justify;
+    margin-top: 50px;
+    
+}
+
+#section1presentation h1 {
+    text-align: center;
+
+}
+
+#section1partie2 {
+    display: flex; 
+    flex-direction : row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+
+.boxsection1 div {
+    width: 80%;
+ 
+
+}
+
+.boxsection1 div {
+    line-height: 1.7rem;
+}
+#timeless {
+    margin-left: 100px;
+}
+
+.box_photo{
+    margin:0;
+    padding:0;
+    width:100%;
+    
+}
+
+
+.liste_photo{
+    margin:0;
+    padding:0;
+    width:100%;
+    display:flex;
+       
+}
+
+.overflow{
+    overflow:hidden;
+    width:100%;
+    margin:0;
+    padding:0;
+    opacity:1;
+    background-color: #000;
+    
+}
+
+.liste_photo img{
+    background-color: #000;
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    -webkit-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    transform: scale(1.15);
+    -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+    transition: opacity 0.5s, -webkit-transform 0.5s;
+    transition: transform 0.5s, opacity 0.5s;
+    transition: transform 0.5s, opacity 0.5s, -webkit-transform 0.5s;
+}
+
+
+.liste_photo img:hover{
+    opacity: 1;
+    -webkit-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    transform: scale(1.03);
+}
+
+
+
+
+.fonctionnement{
+    text-align: justify;
+    padding-top: 50px;
+    
+    background-color: white;
+    color: black;
+    
+}
+
+.fonctionnement h1 {
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+
+}
+
+.fonctionnement_row{
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+
+}
+
+#iphone img {
+    width: 35%;
+    margin-left: 50%;
+
+}
+
+#iphone div {
+    width: 100%;
+}
+
+.petiterow {
+    display: flex;
+    flex-direction : row;
+    justify-content :center;
+    align-content: center;
+}
+
+
+
+.je {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 40px;
+    margin-right: 50px;
+    border-radius: 50%;
+    padding: 5px; 
+    color: orange;
+    border: 3px solid orange;  
+}
+
+.petiterow p {
+    width: 500px;
+    
+    margin-right: 150px;
+
+}
+
+#download {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    
+}
+
+#download img{
+    margin-right: 30px;
+    height: 50px;
+}
