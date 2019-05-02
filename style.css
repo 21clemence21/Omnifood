@@ -1,15 +1,13 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-color: white;
     color: white;
     font-family: 'Lato', sans-serif;
 }
 
 header {
 
-  
-  
     background:linear-gradient(
         rgba(0, 0, 0, 0.6), 
         rgba(0, 0, 0, 0.6)
@@ -76,12 +74,17 @@ header ul li a {
 #buttons button{
     text-decoration : none;
     padding: 15px 25px; 
-    background-color: orange;
-    border-radius: 15px;
-    border: none;
+       border-radius: 25px;
+
     color: white;
     font-weight: bold;
     font-size: 1.2rem;
+
+    background-color: #e67e22;
+border: 1px solid #e67e22;
+color: #fff;
+margin-right: 15px;
+
 }
 
 #section1 {
@@ -107,7 +110,7 @@ header ul li a {
 #section1partie2 {
     display: flex; 
     flex-direction : row;
-    justify-content: space-around;
+    justify-content: space-around;.customer
     align-items: center;
     margin-top: 50px;
     margin-bottom: 30px;
@@ -227,10 +230,13 @@ header ul li a {
     margin-bottom: 40px;
     margin-right: 50px;
     border-radius: 50%;
-    padding: 5px; 
+    padding: 5px; https://www.google.com/search?q=joanna+seduction+komitid&spell=1&sa=X&ved=0ahUKEwi2mJSr0_rhAhXZ6eAKHWhMBMEQBQgqKAA&biw=1296&bih=669
     color: orange;
     border: 3px solid orange;  
+    
 }
+
+
 
 .petiterow p {
     width: 500px;
@@ -245,7 +251,7 @@ header ul li a {
     justify-content: flex-start;
     align-items: center;
     margin-top: 30px;
-    margin-bottom: 40px;
+
     
 }
 
@@ -253,3 +259,106 @@ header ul li a {
     margin-right: 30px;
     height: 50px;
 }
+
+.box_villes_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    color: black;
+    width: 90%;
+    margin-left: 100px;
+}
+
+.box_ville img {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+   
+}
+
+.box_ville {
+    width: 80%;
+    margin-right: 50px;https://www.google.com/search?q=joanna+seduction+komitid&spell=1&sa=X&ved=0ahUKEwi2mJSr0_rhAhXZ6eAKHWhMBMEQBQgqKAA&biw=1296&bih=669
+}
+
+.box_ville p {
+    font-size: 1.1em;
+    line-height: 1.3em;
+}
+
+
+.box_ville h3{
+    text-transform : uppercase;
+    font-size: 16px;
+}
+
+.villes {
+    background-color: white;
+    color: black;
+}
+
+.villes h1 {
+    padding-top: 40px;
+    padding-bottom : 30px;
+    text-align: center; 
+}
+
+.customers {
+    color: white;
+
+    background:linear-gradient(
+        rgba(0, 0, 0, 0.6), 
+        rgba(0, 0, 0, 0.6)
+        ), url("images/back-customers-min.jpg");
+    background-size:cover;
+    background-position: center;
+    background-attachment:fixed;
+   
+}
+
+.customers h1 {
+    text-align: center;
+    padding-top: 70px;
+    letter-spacing: 0.5em;
+}
+
+.box_customers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+ 
+    color:white;
+    width: 90%;
+    margin-left: 100px;
+
+}
+
+.customer{
+    width: 100%;
+    margin-right: 100phttps://www.google.com/search?q=joanna+seduction+komitid&spell=1&sa=X&ved=0ahUKEwi2mJSr0_rhAhXZ6eAKHWhMBMEQBQgqKAA&biw=1296&bih=669
+    padding: 2%;
+    font-style: italichttps://www.google.com/search?q=joanna+seduction+komitid&spell=1&sa=X&ved=0ahUKEwi2mJSr0_rhAhXZ6eAKHWhMBMEQBQgqKAA&biw=1296&bih=669
+    line-height: 145%;https://www.google.com/search?q=joanna+seduction+komitid&spell=1&sa=X&ved=0ahUKEwi2mJSr0_rhAhXZ6eAKHWhMBMEQBQgqKAA&biw=1296&bih=669
+    position: relative;
+    padding-bottom: 40px;
+}
+
+.customer h3 {
+    font-weight: bold;
+    font-size: 3rem;
+    margin: 0;
+}
+
+.customer img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.customer p{
+    padding-bottom : 20px;
+}
+
